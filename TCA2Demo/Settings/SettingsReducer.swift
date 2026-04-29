@@ -1,4 +1,3 @@
-import Combine
 import ComposableArchitecture1
 import Foundation
 
@@ -29,11 +28,6 @@ import Foundation
         Reduce { state, action in
             switch action {
             case .binding:
-                return .publisher(
-                    Empty<Never, Never>()
-                        .map { _ in Action.didFinishUpdateValue }
-                        .eraseToAnyPublisher
-                )
                 return .none
             case .destination:
                 return .none
