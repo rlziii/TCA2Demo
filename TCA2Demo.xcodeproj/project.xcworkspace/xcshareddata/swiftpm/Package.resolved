@@ -42,8 +42,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-collections",
       "state" : {
-        "revision" : "6675bc0ff86e61436e615df6fc5174e043e57924",
-        "version" : "1.4.1"
+        "revision" : "fea17c02d767f46b23070fdfdacc28a03a39232a",
+        "version" : "1.5.1"
       }
     },
     {
@@ -70,7 +70,7 @@
       "location" : "https://github.com/pointfreeco/swift-debug-snapshots",
       "state" : {
         "branch" : "main",
-        "revision" : "d76b8e8fcd54fc83b092788d7f7a002c1fed2e77"
+        "revision" : "555c6b8991188ceb6c3836f01ba076de2df797e1"
       }
     },
     {
@@ -133,7 +133,7 @@
       "location" : "https://github.com/pointfreeco/TCA26",
       "state" : {
         "branch" : "main",
-        "revision" : "014eec2abcf5966b4092b77d8a3725d18acacd1b"
+        "revision" : "9e1a571bba5006cd4651e19ebf49230fd90aa731"
       }
     },
     {

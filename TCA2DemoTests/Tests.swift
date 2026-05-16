@@ -12,7 +12,11 @@ struct Tests {
 
         let book = Book(id: "", author: "", coverID: "", title: "", year: "")
         store.send(.bookTapped(book))
-        // How to test event?
+
+        await store.receive(
+            key: AddBookFeature.AddBookEvent.self,
+            value: .equals(book)
+        )
     }
 
     @MainActor @Test
