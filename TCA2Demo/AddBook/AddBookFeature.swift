@@ -28,6 +28,9 @@ import Foundation
                 try await search(term: store.searchTerm)
             }
         }
+        .onMount { state in
+            state.searchFocused = true
+        }
     }
 
     private func search(term: String) async throws {
